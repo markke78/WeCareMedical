@@ -1,0 +1,25 @@
+[
+    {
+        "id":1,
+        "image": "images/wecare1.png",
+        "title": "We Care About You",
+        "description": "We are a team of dedicated professionals, ready to do what ever it takes to make your health better",
+        "link": "/alldoctors"
+    },
+        {
+        "id":2,
+        "image": "images/wecare2.png",
+        "title": "SEE OUR TEAM",
+        "description": "We are a team of dedicated professionals, ready to do what ever it takes to make your health better",
+        "link": "/alldoctors"
+    },
+        {
+        "id":3,
+        "image": "images/wecare3.png",
+        "title": "OUR PEDIATRIC TEAM",
+        "description": "We are a team of dedicated professionals, ready to do what ever it takes to make your health better",
+        "link": "/pediatrics"
+    }
+ 
+
+]

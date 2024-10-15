@@ -1,0 +1,91 @@
+.signin-page-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-size: contain;
+  background-position: right calc(100% - 20px);
+  /* Move the image to the right, 20 pixels from the edge */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  background-image: url('https://pngfreepic.com/wp-content/uploads/2022/04/Thank-you-doctors-and-nurses-life-insurance-Free-Vector.png?v=1663342739');
+  /* Updated path */
+  font-weight: bolder;
+}
+
+.logo-image {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  /* Adjust the left value as needed to control the distance from the left edge */
+  transform: translateY(-50%);
+  width: 100px;
+  /* Adjust the width as needed */
+}
+
+.signin-box {
+  background-color: #00d8f5f4;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  margin-left: 130px;
+  /* Add some margin to separate the image and the sign-in box */
+  font-weight: bolder;
+}
+
+.google-btn {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.facebook-btn {
+  margin-top: 10px;
+  color: #ffffff;
+  /* White text color for the Facebook button */
+  background-color: #3b5998;
+  /* Facebook's brand color */
+}
+
+/* Customize the style of the "Register new account" button */
+/* For example, make it a simple link with blue text */
+.signin-box a {
+  text-decoration: none;
+  color: #1da1f2;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+/* Add margin between buttons */
+.signin-box .MuiButton-root {
+  margin-bottom: 10px;
+}
+
+/* Add spacing between buttons and text fields */
+.signin-box .MuiFormControl-root {
+  margin-bottom: 10px;
+}
+
+/* Add custom styles for the Next button */
+.signin-box .MuiButton-contained88 {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Add hover effect for the Next button */
+.signin-box .MuiButton-contained88:hover {
+  background-color: #333;
+  /* Darker shade when hovered */
+}
+
+.arrowBack-link {
+  display: inline-block;
+  width: 10%;
+  margin-left: 10.5em;
+}

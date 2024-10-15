@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+.connect {
+    margin-top: -30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.connect h1 {
+    padding-top: 60px;
+    margin-bottom: -30px;
+    font-size: 40px;
+    line-height: 2;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+
+.category {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.container .card {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+        inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+        -5px -5px 5px rgba(0, 0, 0, 0.05),
+        -5px -5px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.container .card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #d9e9fa;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+.container .card:hover .box {
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #b95ce4, #4f29cd);
+}
+
+.container .card .box .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .box .content h2 {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.container .card:hover .box .content h2 {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.container .card .box .content h3 {
+    font-size: 1.8em;
+    color: #777;
+    z-index: 1;
+}
+
+.container .card .box .content p {
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .box .content h3,
+.container .card:hover .box .content p {
+    color: #fff;
+}
+
+.container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .box .content button {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card:hover .box .content a {
+    background: #ff568f;
+}
+
+.container .card:hover .box .content button {
+    background: #ff568f;
+}
+
+.card::before {
+    /* This pseudo-element creates the overlay on hover */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+    /* On hover, show the overlay with background image */
+    opacity: 1;
+}
+
+.family-doctors {
+    background-image: url('https://media.istockphoto.com/id/157326614/photo/doctor-in-surgery-examining-young-girl.jpg?s=612x612&w=0&k=20&c=jM8UeV2UWOnB0SJtY6LVozmhHcFTy5xJjeXKMGvVsPg=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.cardiology {
+    /* Add the cardiology class */
+    background-image: url('https://media.istockphoto.com/id/1271562576/photo/smiling-doctor-listens-to-patients-heart.jpg?s=612x612&w=0&k=20&c=zoDs5b6e88TD5b2tNMWNlz-gYkU_c2wlLPxPVJh_ksE=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.neurology {
+    /* Add the neurology class */
+    background-image: url('https://media.istockphoto.com/id/1180488192/photo/males-doctor-examining-brain-mr.jpg?s=612x612&w=0&k=20&c=XSLzn15Rn2LNQ_oG-nxSdcvIjbjT94tdGEdUnbT7wTU=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.pediatrics {
+    /* Add the pediatrics class */
+    background-image: url('https://media.istockphoto.com/id/466859572/photo/getting-her-yearly-check-up.jpg?s=612x612&w=0&k=20&c=Ofxma0M7vFn0oOUMvw8x1qRwIWxO-HgQf6TlSU3RDkE=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.orthopedics {
+    /* Add the orthopedics class */
+    background-image: url('https://img.freepik.com/free-photo/male-doctor-examining-patients-knee_1170-2171.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.dermatology {
+    /* Add the dermatology class */
+    background-image: url('https://media.istockphoto.com/id/1190138450/photo/attractive-dermatologist-in-white-coat-examining-skin-of-patient-in-clinic.webp?b=1&s=170667a&w=0&k=20&c=tzgbCXPrRiYUZLtUuPI6SGtlzUO1-aJiKZKcUI-19TE=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
