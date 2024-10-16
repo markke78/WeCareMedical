@@ -37,13 +37,13 @@ export default function Footer() {
               Contact Us
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              123 Main Street, Vancouver, BC, Canada
+              14611 Gannet St., Eastvale, CA. 92880
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Email: info@wecare.com
+              Email: info@wecaremedical.com
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Phone: +1 234 567 8901
+              Phone: +1 626 628 6611
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
