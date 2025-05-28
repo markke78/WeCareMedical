@@ -13,8 +13,8 @@ import { ShowLoader } from '../redux/loaderSlice';
 
 
 export default function SignInPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('logintotestme@gmail.com');
+  const [password, setPassword] = useState('1234567890');
   const [value, updateValue] = useLocalStorage('user', null);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -104,6 +104,7 @@ export default function SignInPage() {
 
           <TextField
             label="Email"
+            placeholder='logintotestme@gmail.com'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             onKeyDown={handleKeyDown}
